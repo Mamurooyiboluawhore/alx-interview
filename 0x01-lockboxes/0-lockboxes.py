@@ -1,11 +1,20 @@
 #!/usr/env python3
+"""
+A functio that unlocks boxes
+"""
 
 
 def canUnlockAll(boxes):
+    """
+    A function that unlock boxes
+    """
     if len(boxes) < 1:
         return False
+    # Create a list of keys
     keys = [0]
+    # Set of unlocked boxes
     index = 0
+    # if we have key
     while index < len(keys):
         if len(boxes[keys[index]]) < 1:
             index += 1
