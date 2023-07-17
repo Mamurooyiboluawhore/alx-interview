@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Minimum Operation module for calculating minimum operation
-"""
+""" Minimum Operation module for calculating minimum operation """
 
 
 def minOperations(n: int) -> int:
