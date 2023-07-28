@@ -6,7 +6,6 @@ def validUTF8(data):
     ''' a function that validates utf'''
     for byte in data:
         bit_char = format(byte, '08b')
-
         if bit_char.startswith('0'):
             continue
         if bit_char.startswith('110'):
